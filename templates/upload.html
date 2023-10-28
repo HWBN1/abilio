@@ -34,8 +34,8 @@
 <body>
     <div class="container">
         <h1>Meilisearch Seeder</h1>
-        <form class="upload-form" action="/" method="post" enctype="multipart/form-data">
-            <input type="file" name="file">
+        <form class="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".csv, .json">
             <br><br>
             <input class="upload-btn" type="submit" value="Upload JSON File">
         </form>
